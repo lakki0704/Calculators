@@ -59,3 +59,24 @@
 .lastsubmit:hover {
     color: rgb(24, 136, 99);
 }
+
+.homenav:hover {
+    background-color: #9dd3f0;
+    color: aliceblue;
+    border: #023652;
+    border-style: solid;
+    border-top-right-radius: 1.01em;
+    border-bottom-right-radius: 1.01em;
+}
+
+.calci {
+    font-family: cursive;
+    font-weight: 700;
+    font-size: larger;
+}
+
+.block:hover {
+    background: rgb(162, 159, 159) no-repeat center;
+    background-size: 100%;
+    color: rgb(2, 51, 74);
+}
