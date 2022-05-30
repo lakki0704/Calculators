@@ -16,9 +16,12 @@
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
     <link rel="stylesheet" href="custom.css">
+    <script src="scripts.js"></script>
 </head>
 
 <body>
+
+    <div id="preloader"></div>
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-white static-top">
         <div class="container">
@@ -26,14 +29,19 @@
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYg76epMZUre_s9e6Ej7evabKqNIiQH9NiAw&usqp=CAU" alt="..." height="36"> CALCULATORS
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon bg-primary"></span>
           </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active text-black" aria-current="page" href="#">Home</a>
                     </li>
-
+                    <li>
+                        <a class="nav-link active text-black" aria-current="page" href="#">About Us</a>
+                    </li>
+                    <li>
+                        <a class="nav-link active text-black" aria-current="page" href="#">Contact</a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -43,10 +51,10 @@
 
 
     <header class="masthead">
-        <div class=" container position-relative ">
+        <div class=" container position-relative">
             <div class="row justify-content-center ">
                 <div class="col-xl-6 ">
-                    <div class="text-center text-white ">
+                    <div class="text-center text-white">
                         <!-- Page heading-->
                         <h1 class="mb-5 ">Estimate your monthly payments without any hustle!</h1>
 
@@ -63,7 +71,7 @@
 
     </div>
 
-    <section class="features-icons bg-light text-center ">
+    <section class="features-icons bg-light text-center position-static">
         <div class="container ">
             <div class="row ">
                 <div class="col-lg-4 ">
