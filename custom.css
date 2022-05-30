@@ -5,6 +5,7 @@
 
 #preloader {
     background: rgb(0, 0, 6) url(https://miro.medium.com/max/1400/1*Cqy_AXXi0IRNld3iqOUv3Q.gif) no-repeat center;
+    background-size: 50%;
     height: 100%;
     width: 100%;
     position: fixed;
