@@ -61,22 +61,38 @@
 }
 
 .homenav:hover {
-    background-color: #9dd3f0;
-    color: aliceblue;
+    background-color: #505151;
     border: #023652;
     border-style: solid;
     border-top-right-radius: 1.01em;
     border-bottom-right-radius: 1.01em;
+    text: white;
+    font-weight: 900;
+    font-size: 1.2em;
 }
 
 .calci {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: monospace;
     font-weight: 700;
-    font-size: larger;
+    font-size: 1.73em;
 }
 
 .block:hover {
     background: rgb(162, 159, 159) no-repeat center;
     background-size: 100%;
     color: rgb(2, 51, 74);
+}
+
+.table1 {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th {
+    font-size: 1.3em;
+}
+
+th,
+td {
+    padding: 13px;
 }
