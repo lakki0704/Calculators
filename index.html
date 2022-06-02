@@ -28,7 +28,7 @@
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYg76epMZUre_s9e6Ej7evabKqNIiQH9NiAw&usqp=CAU" alt="..." height="36"> <span class="calci"> CALCULATORS</span>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon bg-black bg-opacity-50"></span>
+            <span class="navbar-toggler-icon"></span>
           </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto">
@@ -47,7 +47,7 @@
     </nav>
 
     <div class="sidebar">
-        <a href="#">Loan Calculator</a>
+        <a href="#loan1">Loan Calculator</a>
         <a href="#">Simple Loan Calculator</a>
         <a href="#">Loan Repayment Calculator</a>
         <a href="#">EMI Calculator</a>
@@ -95,11 +95,37 @@
                     <div class="col-lg-4 block">
                         <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3 ">
                             <div class="features-icons-icon d-flex "><i class="bi-window m-auto text-primary "></i></div>
-                            <h3>Loan Calculator</h3>
-                            <p class="lead mb-0 ">To determine your monthly payment, interest rate, number of months or principal amount on a loan.
-                            </p>
-                            <br> <br>
-                            <a href="loan.html"> <button class="button"><span>Calculate</span></button> </a>
+                            <div class="popup" id="myform">
+                                <div class="text-center">
+                                    <table class="table1">
+                                        <tr>
+                                            <th>Monthly Payment : </th>
+                                            <td><input type="number"></td>
+                                        </tr>
+                                        <br>
+
+                                        <tr>
+                                            <th>Interest rate :</th>
+                                            <td><input type="number"></td>
+                                        </tr>
+                                        <br>
+                                        <tr>
+                                            <th>Number of months :</th>
+                                            <td><input type="number"></td>
+                                        </tr>
+                                    </table>
+                                    <br>
+                                    <button>Calculate</button>
+                                    <button onclick="closeForm()">Close</button>
+                                </div>
+                            </div>
+                            <div class="loan1" id="loan1">
+                                <h3>Loan Calculator</h3>
+                                <p class="lead mb-0 ">To determine your monthly payment, interest rate, number of months or principal amount on a loan.
+                                </p>
+                                <br> <br>
+                                <button class="button" onclick="openForm()"><span>Calculate</span></button>
+                            </div>
                         </div>
                     </div>
 
