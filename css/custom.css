@@ -61,7 +61,7 @@
 }
 
 .homenav:hover {
-    background-color: #7b7c7c;
+    background-color: rgba(191, 211, 213, 0.258);
     border: #023652;
     border-style: solid;
     border-top-right-radius: 1.01em;
@@ -78,7 +78,7 @@
 }
 
 .block:hover {
-    background: rgb(162, 159, 159) no-repeat center;
+    background: rgba(191, 211, 213, 0.258) no-repeat center;
     background-size: 100%;
     color: rgb(2, 51, 74);
 }
@@ -86,15 +86,19 @@
 .table1 {
     margin-left: auto;
     margin-right: auto;
+    border-color: #ffffff;
+    border-style: solid;
 }
 
 th {
-    font-size: 0.87em;
+    font-size: 1.2em;
+    color: #fffbfb;
 }
 
 th,
 td {
-    padding: 4px;
+    padding: 0.65em;
+    background-color: #023550;
 }
 
 .sidebar {
@@ -125,7 +129,7 @@ td {
 div.content {
     margin-right: 240px;
     padding: 1px 16px;
-    height: 1000px;
+    height: 0px;
 }
 
 @media screen and (max-width: 1300px) {
@@ -138,14 +142,12 @@ div.content {
 }
 
 .bg1 {
-    background: url("../assets/img/") no-repeat;
-    background-size: 120%;
+    background: url("https://us.123rf.com/450wm/karandaev/karandaev1611/karandaev161100434/65841837-office-leather-desk-table-with-calculator-and-pen-top-view-with-copy-space.jpg?ver=6") no-repeat;
+    background-size: 100%;
+    background-image: linear-gradient(rgb(2, 45, 66), rgb(49, 52, 53), black);
 }
 
-.popup {
-    display: none;
-}
-
-.loan1 {
-    display: block;
+.calci2 {
+    border-style: double;
+    border-color: #ffffff;
 }
