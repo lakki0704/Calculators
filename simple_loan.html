@@ -65,34 +65,36 @@
 
         <div class="bg1">
             <div class="text-center"> <br>
-                <h1 style="color: white;">LOAN CALCULATOR </h1> <br><br>
-                <p style="color: white; font-size: 1.3em;">This calculator can be used to determine your monthly payment, interest rate, <br> number of months or principal amount on a loan.</p>
+                <h1 style="color: white;">SIMPLE LOAN CALCULATOR </h1> <br><br>
+                <p style="color: white; font-size: 1.3em;">Calculate monthly payment on a loan from a term in years or months along with interest paid on the loan. <br> Create an amortization schedule. Use this loan calculator for a simple calculation of your monthly payment along with the interest
+                    paid on the loan.
+                </p>
                 <table class="table1">
                     <tr>
 
-                        <th>Monthly Payment : </th>
-                        <td><input type="number" id="monthlypayment" placeholder="20,000 rupees"></td>
+                        <th>Loan amount: </th>
+                        <td><input type="number" id="loanamount2" placeholder="20,000 rupees"></td>
                     </tr>
                     <br>
 
                     <tr>
                         <th>Interest rate :</th>
-                        <td><input type="number" id="interestrate1" placeholder="20%"></td>
+                        <td><input type="number" id="interestrate2" placeholder="20%"></td>
                     </tr>
                     <br>
                     <tr>
                         <th>Number of months :</th>
-                        <td><input type="number" id="n1" placeholder="4 months"></td>
+                        <td><input type="number" id="n2" placeholder="4 months"></td>
                     </tr>
                 </table>
                 <br><br>
-                <button class="button calci2" onclick="calc1()"><span>Calculate</span></button>
+                <button class="button calci2" onclick="calc2()"><span>Calculate</span></button>
             </div> <br><br>
             <table class="table1">
 
                 <tr>
-                    <th>Loan amount : </th>
-                    <td id="la"></td>
+                    <th>Payment: </th>
+                    <td id="payment2" class="result"></td>
                 </tr>
             </table>
             <br><br>
