@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" type="text/css" />
+    <title>Simple Interest calculator</title>
+</head>
+
+<body>
+    <!-- <div id="preloader"></div> -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-white static-top">
+        <div class="container">
+            <a class="navbar-brand text-black" href="#">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYg76epMZUre_s9e6Ej7evabKqNIiQH9NiAw&usqp=CAU" alt="..." height="36"> <span class="calci"> CALCULATORS</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active text-black homenav" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a class="nav-link active text-black homenav" aria-current="page" href="#">About Us</a>
+                    </li>
+                    <li>
+                        <a class="nav-link active text-black homenav" aria-current="page" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="sidebar">
+        <a href="loan.html">Loan Calculator</a>
+        <a href="simple_loan.html">Simple Loan Calculator</a>
+        <a href="loan_repayment.html">Loan Repayment Calculator</a>
+        <a href="emi.html">EMI Calculator</a>
+        <a href="car_loan.html">Car Loan Calculator</a>
+        <a href="carloan_payment.html">Car Loan Payment Calculator</a>
+        <a href="mortgage.html">Mortgage Calculator</a>
+        <a href="simple_interest.html">Simple Interest Calculator</a>
+        <a href="simple_interest2.html">Simple Interest Calculator(2)</a>
+        <a href="compound.html">Compound Interest Calculator</a>
+        <a href="pv.html">Present Value Calculator</a>
+        <a href="npv.html">Net present Value Calculator</a>
+        <a href="fv.html">Future Value Calculator</a>
+        <a href="debt_ratio.html">Debt Ratio Calculator</a>
+        <a href="debt_equity.html">Debt Equity Ratio Calculator</a>
+
+    </div>
+
+    <div class="content">
+
+        <div class="bg1">
+            <div class="text-center hex"> <br>
+                <h1 style="color: white;">SIMPLE INTEREST CALCULATOR </h1> <br><br>
+                <p style="color: white; font-size: 1.3em;">This simple interest calculator calculates an accrued amount that includes the principal plus interest.
+
+                </p>
+                <table class="table1">
+                    <tr>
+
+                        <th>
+                            Principal amount : </th>
+                        <td><input type="number" id="principal8" placeholder="20,000 rupees"></td>
+                    </tr>
+                    <br>
+
+                    <tr>
+                        <th>Interest rate :</th>
+                        <td><input type="number" id="interestrate8" placeholder="20%"></td>
+                    </tr>
+                    <br>
+                    <tr>
+                        <th>Number of years : </th>
+                        <td><input type="number" id="n8" placeholder="2 years"></td>
+                    </tr>
+                </table>
+                <br><br>
+                <button class="button calci2" onclick="calc8()"><span>Calculate</span></button>
+            </div> <br><br>
+            <table class="table1">
+
+                <tr>
+                    <th>Simple interest : </th>
+                    <td id="payment8" class="result"></td>
+                </tr>
+            </table>
+            <br>
+            <br>
+        </div>
+
+        <footer class="footer bg-light">
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-lg-6 h-100 text-center text-lg-start my-auto">
+                        <ul class="list-inline mb-2">
+                            <li class="list-inline-item"><a href="#!">About</a></li>
+                            <li class="list-inline-item">⋅</li>
+                            <li class="list-inline-item"><a href="#!">Contact</a></li>
+                            <li class="list-inline-item">⋅</li>
+                            <li class="list-inline-item"><a href="#!">Terms of Use</a></li>
+                            <li class="list-inline-item">⋅</li>
+                            <li class="list-inline-item"><a href="#!">Privacy Policy</a></li>
+                        </ul>
+
+                    </div>
+                    <div class="col-lg-6 h-100 text-center text-lg-end my-auto">
+                        <ul class="list-inline mb-0">
+                            <li class="list-inline-item me-4">
+                                <a href="#!"><i class="bi-facebook fs-3"></i></a>
+                            </li>
+                            <li class="list-inline-item me-4">
+                                <a href="#!"><i class="bi-twitter fs-3"></i></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#!"><i class="bi-instagram fs-3"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <p class="text-muted small mb-4 mb-lg-0 text-center">&copy; Calculators 2022. All Rights Reserved.</p>
+        </footer>
+    </div>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>

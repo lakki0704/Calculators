@@ -77,3 +77,64 @@ function calc4() {
     var payment = document.getElementById("emi4");
     payment.innerHTML = pay;
 }
+
+function calc5() {
+
+    var m = parseFloat(document.getElementById("loanamount5").value);
+    var i = parseFloat(document.getElementById("interestrate5").value) / 1200;
+    var n = parseFloat(document.getElementById("n5").value);
+    var pay = ((m * i) / (1 - (Math.pow((1 + i), -n))));
+    var payment = document.getElementById("payment5");
+    payment.innerHTML = pay;
+}
+
+function calc6() {
+
+    var m = parseFloat(document.getElementById("loanamount6").value);
+    var i = parseFloat(document.getElementById("interestrate6").value) / 100;
+    var n = parseFloat(document.getElementById("n6").value);
+    var pay = (m * i * (Math.pow((1 + i), n))) / ((Math.pow((1 + i), n)) - 1);
+    var payment = document.getElementById("payment6");
+    payment.innerHTML = pay;
+}
+
+function calc7() {
+
+    var m = parseFloat(document.getElementById("loanamount7").value);
+    var i = parseFloat(document.getElementById("interestrate7").value) / 100;
+    var n = parseFloat(document.getElementById("n7").value);
+    var pay = (m * i * (Math.pow((1 + i), n))) / ((Math.pow((1 + i), n)) - 1);
+    var payment = document.getElementById("payment7");
+    payment.innerHTML = pay;
+}
+
+function calc8() {
+
+    var m = parseFloat(document.getElementById("principal8").value);
+    var i = parseFloat(document.getElementById("interestrate8").value) / 100;
+    var n = parseFloat(document.getElementById("n8").value);
+    var pay = m * (1 + (i * n));
+    var payment = document.getElementById("payment8");
+    payment.innerHTML = pay;
+}
+
+function calc9() {
+
+    var m = parseFloat(document.getElementById("principal9").value);
+    var i = parseFloat(document.getElementById("interestrate9").value) / 100;
+    var n = parseFloat(document.getElementById("n9").value);
+    var pay = m * i * n;
+    var payment = document.getElementById("payment9");
+    payment.innerHTML = pay;
+}
+
+function calc10() {
+
+    var m = parseFloat(document.getElementById("principal10").value);
+    var i = parseFloat(document.getElementById("interestrate10").value) / 100;
+    var n = parseFloat(document.getElementById("n10").value);
+    var nn = parseFloat(document.getElementById("nn10").value);
+    var pay = m * (1 + (i / nn)) * (nn * n);
+    var payment = document.getElementById("payment10");
+    payment.innerHTML = pay;
+}
