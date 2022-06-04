@@ -188,3 +188,10 @@
         background-color: #303030;
         color: #011a27;
     }
+    
+    #termsandconditions {
+        margin-left: 1em;
+        margin-right: 1em;
+        background-color: #ebe9e9;
+        transition: ease-in 7s;
+    }

@@ -138,3 +138,59 @@ function calc10() {
     var payment = document.getElementById("payment10");
     payment.innerHTML = pay;
 }
+
+
+function calc11() {
+
+    var m = parseFloat(document.getElementById("future11").value);
+    var i = parseFloat(document.getElementById("interestrate11").value) / 100;
+    var n = parseFloat(document.getElementById("n11").value);
+
+    var pay = (m / (Math.pow((1 + i), n)));
+    var payment = document.getElementById("payment11");
+    payment.innerHTML = pay;
+}
+
+function calc12() {
+
+    var m = parseFloat(document.getElementById("future12").value);
+    var i = parseFloat(document.getElementById("interestrate12").value) / 100;
+    var n = parseFloat(document.getElementById("n12").value);
+
+    var pay = m / (Math.pow((1 + i), n));
+    var payment = document.getElementById("payment12");
+    payment.innerHTML = pay;
+}
+
+function calc13() {
+
+    var m = parseFloat(document.getElementById("present13").value);
+    var i = parseFloat(document.getElementById("interestrate13").value) / 100;
+    var n = parseFloat(document.getElementById("n13").value);
+
+    var pay = m * (Math.pow((1 + i), n));
+    var payment = document.getElementById("payment13");
+    payment.innerHTML = pay;
+}
+
+function calc14() {
+
+    var m = parseFloat(document.getElementById("cl14").value);
+    var i = parseFloat(document.getElementById("ca14").value);
+    var n = parseFloat(document.getElementById("ll14").value);
+    var nn = parseFloat(document.getElementById("la14").value);
+    var pay = (m + n) / (i + nn);
+    var payment = document.getElementById("payment14");
+    payment.innerHTML = pay;
+}
+
+function calc15() {
+
+    var m = parseFloat(document.getElementById("cl15").value);
+
+    var n = parseFloat(document.getElementById("ll15").value);
+    var nn = parseFloat(document.getElementById("eq15").value);
+    var pay = (m + n) / nn;
+    var payment = document.getElementById("payment15");
+    payment.innerHTML = pay;
+}
