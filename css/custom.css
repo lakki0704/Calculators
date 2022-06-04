@@ -179,3 +179,12 @@
         background-color: #023652;
         color: #fffbfb;
     }
+    
+    .hex {
+        padding: 10px;
+    }
+    
+    .line :hover {
+        background-color: #303030;
+        color: #011a27;
+    }

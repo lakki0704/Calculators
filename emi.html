@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="css/custom.css">
     <link rel="stylesheet" href="css/styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" type="text/css" />
-    <title>Simple loan calculator</title>
+    <title>EMI calculator</title>
 </head>
 
 <body>
@@ -64,40 +64,41 @@
     <div class="content">
 
         <div class="bg1">
-            <div class="text-center"> <br>
-                <h1 style="color: white;">SIMPLE LOAN CALCULATOR </h1> <br><br>
-                <p style="color: white; font-size: 1.3em;">Calculate monthly payment on a loan from a term in years or months along with interest paid on the loan. <br> Create an amortization schedule. Use this loan calculator for a simple calculation of your monthly payment along with the interest
-                    paid on the loan.
+            <div class="text-center hex"> <br>
+                <h1 style="color: white;">EMI CALCULATOR </h1> <br><br>
+                <p style="color: white; font-size: 1.3em;">This calculator will solve for the Equated Monthly Installment (EMI) of a loan using the following formula for EMI.
                 </p>
                 <table class="table1">
                     <tr>
 
-                        <th>Loan amount: </th>
-                        <td><input type="number" id="loanamount2" placeholder="20,000 rupees"></td>
+                        <th>
+                            Loan amount : </th>
+                        <td><input type="number" id="loanamount4" placeholder="20,000 rupees"></td>
                     </tr>
                     <br>
 
                     <tr>
                         <th>Interest rate :</th>
-                        <td><input type="number" id="interestrate2" placeholder="20%"></td>
+                        <td><input type="number" id="interestrate4" placeholder="20%"></td>
                     </tr>
                     <br>
                     <tr>
                         <th>Number of months :</th>
-                        <td><input type="number" id="n2" placeholder="4 months"></td>
+                        <td><input type="number" id="n4" placeholder="20,000 rupees"></td>
                     </tr>
                 </table>
                 <br><br>
-                <button class="button calci2" onclick="calc2()"><span>Calculate</span></button>
+                <button class="button calci2" onclick="calc4()"><span>Calculate</span></button>
             </div> <br><br>
             <table class="table1">
 
                 <tr>
-                    <th>Payment: </th>
-                    <td id="payment2" class="result"></td>
+                    <th>EMI : </th>
+                    <td id="emi4" class="result"></td>
                 </tr>
             </table>
-            <br><br>
+            <br>
+            <br>
         </div>
 
         <footer class="footer bg-light">

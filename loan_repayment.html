@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="css/custom.css">
     <link rel="stylesheet" href="css/styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" type="text/css" />
-    <title>Simple loan calculator</title>
+    <title>Loan Repayment calculator</title>
 </head>
 
 <body>
@@ -64,40 +64,43 @@
     <div class="content">
 
         <div class="bg1">
-            <div class="text-center"> <br>
-                <h1 style="color: white;">SIMPLE LOAN CALCULATOR </h1> <br><br>
-                <p style="color: white; font-size: 1.3em;">Calculate monthly payment on a loan from a term in years or months along with interest paid on the loan. <br> Create an amortization schedule. Use this loan calculator for a simple calculation of your monthly payment along with the interest
-                    paid on the loan.
+            <div class="text-center hex"> <br>
+                <h1 style="color: white;">LOAN REPAYMENT CALCULATOR </h1> <br><br>
+                <p style="color: white; font-size: 1.3em;">Use this calculator to determine how extra payments can change the term of your loan or <br> how much additional you must pay each month if you want to reduce your loan term by a certain amount of time in months. paid on the loan.
                 </p>
                 <table class="table1">
                     <tr>
 
-                        <th>Loan amount: </th>
-                        <td><input type="number" id="loanamount2" placeholder="20,000 rupees"></td>
+                        <th>
+                            Monthly payment : </th>
+                        <td><input type="number" id="monthlypayment3" placeholder="20,000 rupees"></td>
                     </tr>
                     <br>
 
                     <tr>
                         <th>Interest rate :</th>
-                        <td><input type="number" id="interestrate2" placeholder="20%"></td>
+                        <td><input type="number" id="interestrate3" placeholder="20%"></td>
                     </tr>
                     <br>
                     <tr>
-                        <th>Number of months :</th>
-                        <td><input type="number" id="n2" placeholder="4 months"></td>
+                        <th>Loan balance :</th>
+                        <td><input type="number" id="loanbalance3" placeholder="20,000 rupees"></td>
                     </tr>
                 </table>
                 <br><br>
-                <button class="button calci2" onclick="calc2()"><span>Calculate</span></button>
+                <button class="button calci2" onclick="calc3()"><span>Calculate</span></button>
             </div> <br><br>
             <table class="table1">
 
                 <tr>
-                    <th>Payment: </th>
-                    <td id="payment2" class="result"></td>
+                    <th>Number of months: </th>
+                    <td id="n3" class="result"></td>
                 </tr>
             </table>
-            <br><br>
+            <br>
+            <a href="simple_loan.html" class="text-center line" style="text-decoration: none;">
+                <p style="color: white; font-size: 1.3em; cursor: pointer;"> When investigating different terms (months) you can use the following formula to calculate what your corresponding monthly payment amounts will be</p>
+            </a><br>
         </div>
 
         <footer class="footer bg-light">

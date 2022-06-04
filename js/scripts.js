@@ -54,3 +54,26 @@ function calc2() {
     var payment = document.getElementById("payment2");
     payment.innerHTML = pay;
 }
+
+
+function calc3() {
+
+    var m = parseFloat(document.getElementById("monthlypayment3").value);
+    var i = parseFloat(document.getElementById("interestrate3").value) / 1200;
+    // var n = parseFloat(document.getElementById("n2").value);
+    var l = parseFloat(document.getElementById("loanbalance3").value);
+    // var pay = (m * i * (Math.pow((1 + i), n))) / ((Math.pow((1 + i), n)) - 1);
+    var pay = (Math.log10((m / i) / ((m / i) - l))) / (Math.log10(1 + i));
+    var payment = document.getElementById("n3");
+    payment.innerHTML = Math.floor(pay);
+}
+
+function calc4() {
+
+    var m = parseFloat(document.getElementById("loanamount4").value);
+    var i = parseFloat(document.getElementById("interestrate4").value) / 100;
+    var n = parseFloat(document.getElementById("n4").value);
+    var pay = (m * i * (Math.pow((1 + i), n))) / ((Math.pow((1 + i), n)) - 1);
+    var payment = document.getElementById("emi4");
+    payment.innerHTML = pay;
+}
