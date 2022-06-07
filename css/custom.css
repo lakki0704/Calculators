@@ -131,7 +131,7 @@
                     height: 0px;
                 }
                 
-                @media screen and (max-width: 580px) {
+                @media screen and (max-width: 965px) {
                     .sidebar {
                         display: none;
                     }
@@ -307,7 +307,7 @@
                 }
                 
                 .calculatorz {
-                    height: 45px;
+                    height: 55px;
                     border-color: #343a40;
                     margin-bottom: 20px;
                     background-image: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255), white, rgb(228, 228, 228));
