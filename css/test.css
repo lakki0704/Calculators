@@ -1,0 +1,105 @@
+    .headerfile {
+        background-image: radial-gradient(rgb(253, 165, 97), rgb(237, 180, 24), rgb(237, 152, 25), rgb(239, 172, 17));
+    }
+    
+    .header1 {
+        padding-top: 200px;
+        padding-bottom: 240px;
+        padding-left: 9px;
+    }
+    
+    .header2 {
+        font-size: 5em;
+        font-weight: 600;
+        color: rgb(255, 255, 255);
+        word-spacing: 0em;
+    }
+    
+    .header3 {
+        font-size: 2.5em;
+        font-weight: 600;
+        color: rgb(255, 255, 255);
+        word-spacing: 0em;
+    }
+    
+    @media screen and ( max-width: 767px) {
+        .header2 {
+            font-size: 3em;
+        }
+        .header1 {
+            padding-top: 100px;
+            padding-bottom: 100px;
+        }
+        .header3 {
+            font-size: 1.5em;
+        }
+    }
+    
+    .image {
+        float: left;
+        height: 170px;
+        width: 170px;
+    }
+    
+    .about {
+        height: 300px;
+    }
+    
+    @media screen and (max-width:680px) {
+        .about {
+            height: 500px;
+        }
+    }
+    
+    @media screen and (max-width:900px) {
+        .image {
+            float: left;
+            margin: auto;
+        }
+    }
+    
+    .tools {
+        background-image: radial-gradient(rgb(253, 165, 97), rgb(237, 180, 24), rgb(237, 152, 25), rgb(239, 172, 17));
+    }
+    
+    .item {
+        background: rgb(251, 237, 160);
+        width: 340px;
+        height: 50px;
+        margin: 10px;
+        line-height: 30px;
+        color: rgb(34, 34, 34);
+        font-weight: 500;
+        font-size: 1.23em;
+        text-align: center;
+    }
+    
+    .float {
+        max-width: 1200px;
+        margin: 2px auto;
+    }
+    
+    .float:after {
+        content: ".";
+        display: block;
+        height: 0;
+        clear: both;
+        visibility: hidden;
+    }
+    
+    .float-item {
+        float: left;
+    }
+    
+    @media screen and (max-width:950px) {
+        .item {
+            width: 165px;
+            margin: 5px;
+        }
+    }
+    
+    .container1 {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
