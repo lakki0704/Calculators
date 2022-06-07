@@ -91,14 +91,14 @@
             }
             
             th {
-                font-size: 1.4em;
-                color: #fffbfb;
+                font-size: 1.2em;
             }
             
             th,
             td {
-                padding: 0.65em;
-                background-color: #9d5702;
+                padding: 0.75em;
+                background-color: rgb(251, 237, 160);
+                color: #9d5702;
             }
             
             .sidebar {
@@ -151,42 +151,13 @@
                 border-color: #ffffff;
             }
             
-            #la {
-                font-size: 1.4em;
-                color: #fffbfb;
-            }
-            
-            #payment2 {
-                font-size: 1.4em;
-                color: #fffbfb;
-            }
-            
             .result {
-                font-size: 1.4em;
-                color: #fffbfb;
-            }
-            
-            #myBtn {
-                display: none;
-                position: fixed;
-                bottom: 2px;
-                right: 30px;
-                z-index: 99;
-                font-size: 18px;
-                cursor: pointer;
-                padding: 15px;
-                border-radius: 2em;
-                background-color: #023652;
-                color: #fffbfb;
+                font-size: 1.2em;
+                color: #9d5702;
             }
             
             .hex {
                 padding: 10px;
-            }
-            
-            .line :hover {
-                background-color: #303030;
-                color: #011a27;
             }
             
             .homenav:hover {
@@ -219,46 +190,6 @@
             */ .homenav {
                 float: right;
                 margin-right: 5px;
-            }
-            
-            .d-flex {
-                display: flex !important;
-            }
-            
-            header.masthead:before {
-                content: "";
-                position: absolute;
-                background-color: #1c375e;
-                height: 100%;
-                width: 100%;
-                top: 0;
-                left: 0;
-                opacity: 0.5;
-            }
-            
-            header.masthead h1,
-            header.masthead .h1 {
-                font-size: 2rem;
-            }
-            
-            @media (min-width: 768px) {
-                header.masthead {
-                    padding-top: 12rem;
-                    padding-bottom: 12rem;
-                }
-                header.masthead h1,
-                header.masthead .h1 {
-                    font-size: 3rem;
-                }
-            }
-            
-            .navbar-dark {
-                background-color: #ffffff;
-                color: black;
-            }
-            
-            .nav-link {
-                color: black;
             }
             
             .calculatorz {
