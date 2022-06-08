@@ -60,6 +60,9 @@
         
         .tools {
             background-image: radial-gradient(rgb(253, 165, 97), rgb(237, 180, 24), rgb(237, 152, 25), rgb(239, 172, 17));
+            align-items: center;
+            justify-content: center;
+            text-align: center;
         }
         
         .item {
