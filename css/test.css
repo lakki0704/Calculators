@@ -118,9 +118,17 @@
             }
         }
         
-        @media screen and (max-width:410px) {
+        @media screen and (max-width:410px) and (min-width:365px) {
             .item {
                 width: 146px;
+                margin: 5px;
+                font-size: 1.1em;
+            }
+        }
+        
+        @media screen and (max-width:365px) {
+            .item {
+                width: 130px;
                 margin: 5px;
                 font-size: 1.1em;
             }
