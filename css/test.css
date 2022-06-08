@@ -102,7 +102,7 @@
             }
         }
         
-        @media screen and (max-width:1260px) and (min-width: 1070px) {
+        @media screen and (max-width:1400px) and (min-width: 1070px) {
             .item {
                 width: 260px;
                 margin: 5px;
