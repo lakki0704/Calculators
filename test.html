@@ -1,4 +1,3 @@
-<!doctype html>
 <html lang="en">
 
 <head>
@@ -8,19 +7,20 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/test2.css">
+    <link rel="stylesheet" href="css/custom.css">
     <link rel="stylesheet" href="css/test.css">
-    <title>testing</title>
+    <title>Hello, world!</title>
 </head>
 
 <body>
-
     <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container">
             <a class="navbar-brand" href="#">
                 <img src="assets/logo1.png" alt="..." height="60">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon" style="background-color: rgb(131, 127, 127); border-radius:3em;"></span>
+            <span class="navbar-toggler-icon" style="background-color: rgb(246, 136, 11); border-radius:3em;"></span>
           </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto">
@@ -39,71 +39,170 @@
             </div>
         </div>
     </nav>
-    <div class="headerfile">
+    <div class="headerfile text-center">
         <div class="header1">
             <span class="header2">Calculator boy welcomes you</span> <br>
             <span class="header3">Estimate your monthly payments without any hustle </span>
         </div>
-
-
-
-
-    </div>
-    <br> <br>
-    <h2 class="heading text-center">About us</h2> <br>
-    <div class="about" id="aboutus">
-
-        <img src="assets/boy.png" alt="" class="image img-fluid">
-        <p class="aboutdetail"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum aperiam perspiciatis aliquam? Et qui dolores minima esse, ipsum consectetur necessitatibus fuga, voluptas est, quaerat ipsa nisi magni voluptates voluptatem corrupti! Lorem ipsum dolor
-            sit amet consectetur adipisicing elit. Libero maiores aperiam a quod, maxime autem. Minima vitae maxime earum. Inventore velit quia repellendus similique debitis natus aliquid consequatur dolorum tempora? <br> <br> Lorem ipsum dolor sit, amet
-
-        </p>
-
     </div>
 
-    <div class="tools">
-        <h1 class="heading text-center">Calculators</h1> <br>
-        <div class="text-center">
-            <input type="text" name="" id="" placeholder="Search calculators" class="text-center">
+
+    <div class="sidebar">
+        <a href="loan.html ">Loan Calculator</a>
+        <a href="simple_loan.html ">Simple Loan Calculator</a>
+        <a href="loan_repayment.html ">Loan Repayment Calculator</a>
+        <a href="emi.html ">EMI Calculator</a>
+        <a href="car_loan.html ">Car Loan Calculator</a>
+        <a href="carloan_payment.html ">Car Loan Payment Calculator</a>
+        <a href="mortgage.html ">Mortgage Calculator</a>
+        <a href="simple_interest.html ">Simple Interest Calculator</a>
+        <a href="simple_interest2.html ">Simple Interest Calculator(2)</a>
+        <a href="compound.html ">Compound Interest Calculator</a>
+        <a href="pv.html ">Present Value Calculator</a>
+        <a href="npv.html ">Net present Value Calculator</a>
+        <a href="fv.html ">Future Value Calculator</a>
+        <a href="debt_ratio.html ">Debt Ratio Calculator</a>
+        <a href="debt_equity.html ">Debt Equity Ratio Calculator</a>
+
+    </div>
+    <div class="content">
+
+        <h2 class="heading text-center">About us</h2> <br>
+        <div class="about container-fluid" id="aboutus">
+
+            <img src="assets/boy.png" alt="" class="image img-fluid">
+            <p class="aboutdetail"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum aperiam perspiciatis aliquam? Et qui dolores minima esse, ipsum consectetur necessitatibus fuga, voluptas est, quaerat ipsa nisi magni voluptates voluptatem corrupti! Lorem ipsum
+                dolor sit amet consectetur adipisicing elit. Libero maiores aperiam a quod, maxime autem. Minima vitae maxime earum. Inventore velit quia repellendus similique debitis natus aliquid consequatur dolorum tempora? <br> <br> Lorem ipsum dolor
+                sit, amet
+
+            </p>
+
         </div>
-        <br><br>
-        <div class="container1">
-            <ul class="float" style="list-style: none;">
-                <li class="item float-item">Loan</li>
-                <li class="item float-item">2</li>
-                <li class="item float-item">3</li>
-                <li class="item float-item">4</li>
-                <li class="item float-item">5</li>
-                <li class="item float-item">5</li>
-                <li class="item float-item">5</li>
-                <li class="item float-item">5</li>
-                <li class="item float-item">4</li>
-                <li class="item float-item">5</li>
-                <li class="item float-item">5</li>
-                <li class="item float-item">5</li>
-                <li class="item float-item">5</li>
-                <li class="item float-item">4</li>
-                <li class="item float-item">5</li>
-                <li class="item float-item">5</li>
-                <li class="item float-item">5</li>
-                <li class="item float-item">5</li>
-            </ul>
+        <div class="container noP tools">
+            <br><br>
+            <h1 class="text-center text-light"> Calculators </h1> <br>
+            <div class="text-center ">
+                <input id="searchbar" onkeyup="search()" type="text " name="search " placeholder="Search calculators.. "> <br>
+            </div>
+            <div class="col-md-12 noP">
+                <div class="leftcol noP">
+                    <div class="col-md-12 tln noP clear container1" id="educationTools">
+
+                        <ul>
+                            <a href="loan.html" style="text-decoration: none;">
+                                <li class="item float-item calculatorz">Loan</li>
+                            </a>
+                            <a href="simple_loan.html" style="text-decoration: none;">
+                                <li class="item float-item calculatorz">Simple Loan</li>
+                            </a>
+                            <a href="loan_repayment.html" style="text-decoration: none;">
+                                <li class="item float-item calculatorz">Loan Repayment</li>
+                            </a>
+                            <a href="emi.html" style="text-decoration: none;">
+                                <li class="item float-item calculatorz">EMI</li>
+                            </a>
+                            <a href="car_loan.html" style="text-decoration: none;">
+                                <li class="item float-item calculatorz">Car Loan</li>
+                            </a>
+                            <a href="carloan_payment.html" style="text-decoration: none;">
+                                <li class="item float-item calculatorz">Car Loan (2)</li>
+                            </a>
+                            <a href="mortgage.html" style="text-decoration: none;">
+                                <li class="item float-item calculatorz">Mortgage</li>
+                            </a>
+                            <a href="simple_interest.html" style="text-decoration: none;">
+                                <li class="item float-item calculatorz">Simple Interest</li>
+                            </a>
+                            <a href="simple_interest2.html" style="text-decoration: none;">
+                                <li class="item float-item calculatorz">Simple Interest(2)</li>
+                            </a>
+                            <a href="compound.html" style="text-decoration: none;">
+                                <li class="item float-item calculatorz">Compound Interest</li>
+                            </a>
+                            <a href="pv.html" style="text-decoration: none;">
+                                <li class="item float-item calculatorz">Present Value</li>
+                            </a>
+                            <a href="npv.html" style="text-decoration: none;">
+                                <li class="item float-item calculatorz">Net present value</li>
+                            </a>
+                            <a href="fv.html" style="text-decoration: none;">
+                                <li class="item float-item calculatorz">Future Value</li>
+                            </a>
+                            <a href="debt_ratio.html" style="text-decoration: none;">
+                                <li class="item float-item calculatorz">Debt ratio</li>
+                            </a>
+                            <a href="debt_equity.html" style="text-decoration: none;">
+                                <li class="item float-item calculatorz">Debt equity</li>
+                            </a>
+
+                            <!-- week two -->
+                            <a href="debt_equity.html" style="text-decoration: none;">
+                                <li class="item float-item calculatorz">TIER</li>
+                            </a>
+                            <a href="debt_equity.html" style="text-decoration: none;">
+                                <li class="item float-item calculatorz">Current Ratio</li>
+                            </a>
+                            <a href="debt_equity.html" style="text-decoration: none;">
+                                <li class="item float-item calculatorz">Quick Ratio</li>
+                            </a>
+                            <a href="debt_equity.html" style="text-decoration: none;">
+                                <li class="item float-item calculatorz">Cash Ratio</li>
+                            </a>
+                            <a href="debt_equity.html" style="text-decoration: none;">
+                                <li class="item float-item calculatorz">Working Capital</li>
+                            </a>
+                            <a href="debt_equity.html" style="text-decoration: none;">
+                                <li class="item float-item calculatorz">Inventory Turnover</li>
+                            </a>
+                            <a href="debt_equity.html" style="text-decoration: none;">
+                                <li class="item float-item calculatorz">Total Asset turnover</li>
+                            </a>
+                            <a href="debt_equity.html" style="text-decoration: none;">
+                                <li class="item float-item calculatorz spcl">Average collection period</li>
+                            </a>
+                            <a href="debt_equity.html" style="text-decoration: none;">
+                                <li class="item float-item calculatorz">Equity multiplier</li>
+                            </a>
+                            <a href="debt_equity.html" style="text-decoration: none;">
+                                <li class="item float-item calculatorz">Return on assets</li>
+                            </a>
+                            <a href="debt_equity.html" style="text-decoration: none;">
+                                <li class="item float-item calculatorz">Return on equity</li>
+                            </a>
+                            <a href="debt_equity.html" style="text-decoration: none;">
+                                <li class="item float-item calculatorz">Gross profit</li>
+                            </a>
+                            <a href="debt_equity.html" style="text-decoration: none;">
+                                <li class="item float-item calculatorz spcl">Operating profit margin</li>
+                            </a>
+                            <a href="debt_equity.html" style="text-decoration: none;">
+                                <li class="item float-item calculatorz">Net profit margin</li>
+                            </a>
+                            <a href="debt_equity.html" style="text-decoration: none;">
+                                <li class="item float-item calculatorz">Earnings per share</li>
+                            </a>
+                            <a href="debt_equity.html" style="text-decoration: none;">
+                                <li class="item float-item calculatorz">Price/Earnings ratio</li>
+                            </a>
+                            <a href="debt_equity.html" style="text-decoration: none;">
+                                <li class="item float-item calculatorz">Price/sales ratio</li>
+                            </a>
+                            <a href="debt_equity.html" style="text-decoration: none;">
+                                <li class="item float-item calculatorz">Price/Book ratio</li>
+                            </a>
+                            <a href="debt_equity.html" style="text-decoration: none;">
+                                <li class="item float-item calculatorz spcl">Dividend payout ratio</li>
+                            </a>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+
         </div>
-    </div>
-
-    <div>
-        <p>helloooo</p>
-    </div>
-
-    </div>
 
 
-
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
-
-</html>
 
 </html>

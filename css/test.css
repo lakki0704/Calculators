@@ -66,12 +66,12 @@
             background: rgb(251, 237, 160);
             width: 340px;
             height: 55px;
-            margin: 10px;
             line-height: 30px;
             color: rgb(34, 34, 34);
             font-weight: 500;
             font-size: 1.23em;
             text-align: center;
+            margin: 10px;
         }
         
         .float {
@@ -91,7 +91,7 @@
             float: left;
         }
         
-        @media screen and (max-width:950px) and (min-width: 410px) {
+        @media screen and (max-width:959px) and (min-width: 410px) {
             .item {
                 width: 160px;
                 margin: 5px;
@@ -99,9 +99,17 @@
             }
         }
         
-        @media screen and (max-width:1260px) and (min-width: 959px) {
+        @media screen and (max-width:1260px) and (min-width: 1070px) {
             .item {
-                width: 257px;
+                width: 260px;
+                margin: 5px;
+                font-size: 1.1em;
+            }
+        }
+        
+        @media screen and (max-width:1070px) and (min-width: 959px) {
+            .item {
+                width: 210px;
                 margin: 5px;
                 font-size: 1.1em;
             }
