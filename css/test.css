@@ -99,6 +99,14 @@
             }
         }
         
+        @media screen and (max-width:1260px) and (min-width: 959px) {
+            .item {
+                width: 257px;
+                margin: 5px;
+                font-size: 1.1em;
+            }
+        }
+        
         @media screen and (max-width:410px) {
             .item {
                 width: 146px;
