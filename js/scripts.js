@@ -314,6 +314,113 @@ function calc25() {
 }
 
 
+function calc26() {
+
+    var m = parseFloat(document.getElementById("m26").value);
+
+    var i = parseFloat(document.getElementById("i26").value);
+    // var n = parseFloat(document.getElementById("n23").value);
+    var pay = (m / i);
+    var payment = document.getElementById("payment26");
+    payment.innerHTML = pay.toFixed(3);
+}
+
+
+function calc27() {
+
+    var m = parseFloat(document.getElementById("m27").value);
+
+    var i = parseFloat(document.getElementById("i27").value);
+    // var n = parseFloat(document.getElementById("n23").value);
+    var pay = (m / i);
+    var payment = document.getElementById("payment27");
+    payment.innerHTML = pay.toFixed(3);
+}
+
+
+
+function calc28() {
+
+    var m = parseFloat(document.getElementById("m28").value);
+
+    var i = parseFloat(document.getElementById("i28").value);
+    // var n = parseFloat(document.getElementById("n23").value);
+    var pay = (m / i);
+    var payment = document.getElementById("payment28");
+    payment.innerHTML = pay.toFixed(3);
+}
+
+function calc29() {
+
+    var m = parseFloat(document.getElementById("m29").value);
+
+    var i = parseFloat(document.getElementById("i29").value);
+    // var n = parseFloat(document.getElementById("n23").value);
+    var pay = (m / i);
+    var payment = document.getElementById("payment29");
+    payment.innerHTML = pay.toFixed(3);
+}
+
+
+function calc30() {
+
+    var m = parseFloat(document.getElementById("m30").value);
+
+    var i = parseFloat(document.getElementById("i30").value);
+    // var n = parseFloat(document.getElementById("n23").value);
+    var pay = (m / i);
+    var payment = document.getElementById("payment30");
+    payment.innerHTML = pay.toFixed(3);
+}
+
+
+function calc31() {
+
+    var m = parseFloat(document.getElementById("m31").value);
+
+    var i = parseFloat(document.getElementById("i31").value);
+    var n = parseFloat(document.getElementById("n31").value);
+    var pay = (m / (i / n));
+    var payment = document.getElementById("payment31");
+    payment.innerHTML = pay.toFixed(3);
+}
+
+function calc32() {
+
+    var m = parseFloat(document.getElementById("m32").value);
+
+    var i = parseFloat(document.getElementById("i32").value);
+    var n = parseFloat(document.getElementById("n32").value);
+    var pay = (m / (i / n));
+    var payment = document.getElementById("payment32");
+    payment.innerHTML = pay.toFixed(3);
+}
+
+function calc33() {
+
+    var m = parseFloat(document.getElementById("m33").value);
+
+    var i = parseFloat(document.getElementById("i33").value);
+    // var n = parseFloat(document.getElementById("n33").value);
+    var pay = (m / (i));
+    var payment = document.getElementById("payment33");
+    payment.innerHTML = pay.toFixed(3);
+}
+
+
+function calc34() {
+
+    var m = parseFloat(document.getElementById("m34").value);
+
+    var i = parseFloat(document.getElementById("i34").value);
+    // var n = parseFloat(document.getElementById("n33").value);
+    var pay = (m / (i));
+    var payment = document.getElementById("payment34");
+    payment.innerHTML = pay.toFixed(3);
+}
+
+
+
 
 
 function search() {
