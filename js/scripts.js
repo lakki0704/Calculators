@@ -419,6 +419,159 @@ function calc34() {
     payment.innerHTML = pay.toFixed(3);
 }
 
+function calc35() {
+
+    var m = parseFloat(document.getElementById("m35").value);
+
+    var i = parseFloat(document.getElementById("i35").value);
+    // var n = parseFloat(document.getElementById("n33").value);
+    var pay = (i - m) / m;
+    var pay2 = (i - m) / i;
+    var payment = document.getElementById("payment35");
+    payment.innerHTML = pay.toFixed(3);
+    var payment2 = document.getElementById("payment235");
+    payment2.innerHTML = pay2.toFixed(3);
+}
+
+function calc36() {
+
+    var m = parseFloat(document.getElementById("m36").value);
+
+    var i = parseFloat(document.getElementById("i36").value);
+    // var n = parseFloat(document.getElementById("n33").value);
+    var pay = ((i - m) / m) * 100;
+
+    var payment = document.getElementById("payment36");
+    payment.innerHTML = pay.toFixed(3);
+
+}
+
+function calc37() {
+
+    var m = parseFloat(document.getElementById("m37").value);
+
+    var i = parseFloat(document.getElementById("i37").value) / 100;
+    // var n = parseFloat(document.getElementById("n33").value);
+    var pay = ((m * i) / (1 - i)) * 100;
+
+    var payment = document.getElementById("payment37");
+    payment.innerHTML = pay.toFixed(3);
+
+    var pay2 = ((m));
+
+    var payment2 = document.getElementById("payment237");
+    payment2.innerHTML = pay2.toFixed(3);
+
+    var pay3 = pay + m;
+
+    var payment3 = document.getElementById("payment337");
+    payment3.innerHTML = pay3.toFixed(3);
+
+    var pay4 = pay / m;
+
+    var payment4 = document.getElementById("payment437");
+    payment4.innerHTML = pay4.toFixed(3);
+
+    var pay5 = pay / i;
+
+    var payment5 = document.getElementById("payment537");
+    payment5.innerHTML = pay5.toFixed(3);
+
+}
+
+function calc38() {
+
+    var m = parseFloat(document.getElementById("m38").value);
+
+    var i = parseFloat(document.getElementById("i38").value);
+    // var n = parseFloat(document.getElementById("n33").value);
+    var pay = i - m;
+
+    var payment = document.getElementById("payment38");
+    payment.innerHTML = pay.toFixed(3);
+
+}
+
+function calc39() {
+
+    var m = parseFloat(document.getElementById("m39").value);
+    var i = parseFloat(document.getElementById("i39").value);
+    // var n = parseFloat(document.getElementById("n33").value);
+    var pay = ((m - i) / m) * 100;
+    var payment = document.getElementById("payment39");
+    payment.innerHTML = pay.toFixed(3);
+
+}
+
+function calc40() {
+
+    var m = parseFloat(document.getElementById("m40").value);
+    var i = parseFloat(document.getElementById("i40").value) / 100;
+    // var n = parseFloat(document.getElementById("n33").value);
+    var pay = m * i;
+    var payment = document.getElementById("payment40");
+    payment.innerHTML = pay.toFixed(3);
+    var pay2 = m + (m * i);
+    var payment2 = document.getElementById("payment140");
+    payment2.innerHTML = pay2.toFixed(3);
+
+}
+
+function calc41() {
+
+    var m = parseFloat(document.getElementById("m41").value);
+    var i = parseFloat(document.getElementById("i41").value);
+    // var n = parseFloat(document.getElementById("n33").value);
+    var pay = (i / (m * m));
+    var payment = document.getElementById("payment41");
+    payment.innerHTML = pay.toFixed(3);
+
+}
+
+var items = new Array();
+var newlist = new Array();
+
+function add() {
+    items.push((document.getElementById("m42").value));
+    (document.getElementById("m42").value) = " ";
+    var str = "";
+    for (i = 0; i < items.length; i++) {
+        str = str + items[i] + ",";
+    }
+    document.getElementById("items").innerHTML = str;
+}
+
+function calc42() {
+
+    // var m = (document.getElementById("m42").value);
+    var i = parseFloat(document.getElementById("i42").value);
+    var payment = document.getElementById("payment42");
+    // var n = Math.floor(Math.random() * items.length);
+    for (j = 0; j < i; j++) {
+        var z = items[Math.floor(Math.random() * items.length)];
+        // newlist.push(items[Math.floor(Math.random() * items.length)]);
+        var check = newlist.includes(z);
+        if (check === false) {
+            newlist.push(z);
+        } else {
+            while (check === true) {
+                z = items[Math.floor(Math.random() * items.length)];
+                check = newlist.includes(z);
+                if (check === false) {
+                    newlist.push(z);
+                }
+            }
+        }
+    }
+    var str = "";
+    for (j = 0; j < i; j++) {
+        str = str + newlist[j] + ",";
+    }
+    payment.innerHTML = str;
+
+}
+
+
 
 
 

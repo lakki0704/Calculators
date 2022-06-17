@@ -1,0 +1,723 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Dividend payout ratio calculator</title>
+
+    <link rel="shortcut icon" href="http://calculatorboy.com/components/storage/app/public/photos/1/favicon.png">
+
+    <meta name="description" content="It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.">
+    <meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large">
+    <link rel="canonical" href="http://calculatorboy.com/google-index-checker">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Google Index Checker">
+    <meta property="og:description" content="It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.">
+    <meta property="og:url" content="http://calculatorboy.com/google-index-checker">
+    <meta property="og:site_name" content="Google Index Checker">
+    <meta property="og:updated_time" content="2022-06-12T06:10:25+00:00">
+    <meta property="og:image" content="http://calculatorboy.com/assets/img/nastuh.jpg">
+    <meta property="og:image:secure_url" content="http://calculatorboy.com/assets/img/nastuh.jpg">
+    <meta property="og:image:width" content="640">
+    <meta property="og:image:height" content="427">
+    <meta property="og:image:alt" content="Google Index Checker">
+    <meta property="og:image:type" content="jpg">
+
+    <meta name="twitter:title" content="Google Index Checker">
+    <meta name="twitter:description" content="It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.">
+    <meta name="twitter:site" content="@ThemeLuxury">
+    <meta name="twitter:creator" content="@ThemeLuxury">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="http://calculatorboy.com/assets/img/nastuh.jpg">
+
+    <link rel="alternate" hreflang="ar" href="http://calculatorboy.com/ar/google-index-checker">
+    <link rel="alternate" hreflang="de" href="http://calculatorboy.com/de/google-index-checker">
+    <link rel="alternate" hreflang="en" href="http://calculatorboy.com/google-index-checker">
+    <link rel="alternate" hreflang="es" href="http://calculatorboy.com/es/google-index-checker">
+    <link rel="alternate" hreflang="fr" href="http://calculatorboy.com/fr/google-index-checker">
+    <link rel="alternate" hreflang="it" href="http://calculatorboy.com/it/google-index-checker">
+    <link rel="alternate" hreflang="pt" href="http://calculatorboy.com/pt/google-index-checker">
+    <link rel="alternate" hreflang="ru" href="http://calculatorboy.com/ru/google-index-checker">
+    <link rel="alternate" hreflang="tr" href="http://calculatorboy.com/tr/google-index-checker">
+    <link rel="alternate" hreflang="vi" href="http://calculatorboy.com/vi/google-index-checker">
+
+
+    <!-- Pace -->
+    <script src="http://calculatorboy.com/assets/js/pace.min.js"></script>
+
+    <link rel="stylesheet" href="http://calculatorboy.com/assets/css/pace-theme-default.min.css">
+
+
+    <!-- Aweet Alert 2 -->
+    <link href="http://calculatorboy.com/assets/css/sweetalert2.min.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link type="text/css" href="http://calculatorboy.com/assets/css/fontawesome.min.css" rel="stylesheet">
+
+    <!-- Nucleo Icons -->
+    <link type="text/css" href="http://calculatorboy.com/assets/css/nucleo-icons.css" rel="stylesheet">
+    <link type="text/css" href="http://calculatorboy.com/assets/css/nucleo-svg.css" rel="stylesheet">
+
+    <!-- jQuery -->
+    <script src="http://calculatorboy.com/assets/js/jquery.min.js"></script>
+
+    <!-- Popper -->
+    <script src="http://calculatorboy.com/assets/js/popper.min.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="http://calculatorboy.com/assets/js/bootstrap.min.js"></script>
+
+    <!-- Perfect Scrollbar -->
+    <script src="http://calculatorboy.com/assets/js/perfect-scrollbar.min.js"></script>
+
+    <!-- Smooth Scrollbar -->
+    <script src="http://calculatorboy.com/assets/js/smooth-scrollbar.min.js"></script>
+
+    <!-- Theme CSS -->
+    <link type="text/css" href="http://calculatorboy.com/assets/css/main.ltr.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link type="text/css" href="http://calculatorboy.com/assets/css/custom.ltr.css" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+
+    <style>
+        body,
+        .card .card-body {
+            font-family: Open Sans !important;
+        }
+    </style>
+
+
+
+    <style>
+        [wire\:loading],
+        [wire\:loading\.delay],
+        [wire\:loading\.inline-block],
+        [wire\:loading\.inline],
+        [wire\:loading\.block],
+        [wire\:loading\.flex],
+        [wire\:loading\.table],
+        [wire\:loading\.grid],
+        [wire\:loading\.inline-flex] {
+            display: none;
+        }
+        
+        [wire\:loading\.delay\.shortest],
+        [wire\:loading\.delay\.shorter],
+        [wire\:loading\.delay\.short],
+        [wire\:loading\.delay\.long],
+        [wire\:loading\.delay\.longer],
+        [wire\:loading\.delay\.longest] {
+            display: none;
+        }
+        
+        [wire\:offline] {
+            display: none;
+        }
+        
+        [wire\:dirty]:not(textarea):not(input):not(select) {
+            display: none;
+        }
+        
+        input:-webkit-autofill,
+        select:-webkit-autofill,
+        textarea:-webkit-autofill {
+            animation-duration: 50000s;
+            animation-name: livewireautofill;
+        }
+        
+        @keyframes livewireautofill {
+            from {}
+        }
+    </style>
+
+</head>
+
+<body class="pace-done theme-light" data-new-gr-c-s-check-loaded="14.1063.0" data-gr-ext-installed="" cz-shortcut-listen="true">
+    <div class="pace pace-inactive">
+        <div class="pace-progress" data-progress-text="100%" data-progress="99" style="transform: translate3d(100%, 0px, 0px);">
+            <div class="pace-progress-inner"></div>
+        </div>
+        <div class="pace-activity"></div>
+    </div>
+
+    <div wire:id="GeNSXWM0qtOmLSjXdCkB" class="page">
+        <!-- Navbar Light -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-white z-index-3 ">
+            <div class="container">
+                <a class="navbar-brand logo-image" title="Calculator Boy" href="http://calculatorboy.com">
+
+                    <img src="http://calculatorboy.com/components/storage/app/public/photos/1/logo2.png" alt="Calculator Boy" class="navbar-brand-image">
+
+                </a>
+
+                <button class="navbar-toggler shadow-none ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon mt-2">
+        <span class="navbar-toggler-bar bar1"></span>
+        <span class="navbar-toggler-bar bar2"></span>
+        <span class="navbar-toggler-bar bar3"></span>
+      </span>
+    </button>
+
+                <div class="collapse navbar-collapse w-100 pt-3 pb-2 py-lg-0" id="navigation">
+
+                    <ul class="navbar-nav navbar-nav-hover mx-auto">
+
+                        <!-- Begin::Navbar Left -->
+                        <!-- End::Navbar Left -->
+
+                        <!-- Begin:Lang Menu -->
+                        <!-- End:Lang Menu -->
+                    </ul>
+
+                    <ul class="navbar-nav navbar-nav-hover">
+
+
+
+                        <!-- Begin::Navbar Right -->
+                        <!-- End::Navbar Right -->
+
+                        <!-- Begin::Login -->
+
+
+                        <li class="dropdown mx-2 mx-lg-auto my-2 my-lg-auto">
+                            <div class="author align-items-center cursor-pointer" id="dropdownMenuUser" data-bs-toggle="dropdown" aria-expanded="false">
+                                <img src="https://www.gravatar.com/avatar/f4156ac13453c15406feee0325233e54?s=150&amp;d=mm&amp;r=g" class="avatar shadow">
+                                <div class="name ps-2">
+                                    <span>James Smith</span>
+                                    <div class="stats">
+                                        <small>Administrator</small>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <ul class="dropdown-menu dropdown-menu-animation px-2 mt-md-0 mt-lg-4" aria-labelledby="dropdownMenuUser">
+                                <li>
+                                    <a href="http://calculatorboy.com/admin/dashboard" class="dropdown-item border-radius-md">
+                                        <i class="fas fa-tachometer-alt fa-fw me-2"></i> Admin Dashboard
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="http://calculatorboy.com/profile" class="dropdown-item border-radius-md">
+                                        <i class="fas fa-user fa-fw me-2"></i> Profile
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="http://calculatorboy.com/logout" class="dropdown-item border-radius-md">
+                                        <i class="fas fa-power-off fa-fw me-2"></i> Logout
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+
+
+                        <!-- End::Login -->
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+        <!-- End Navbar -->
+        <main class="main">
+
+
+            <section id="parallax" class="text-white">
+                <div class="position-relative overflow-hidden text-center bg-light">
+                    <span class="mask" style="
+                        
+                        background: #5e72e4;
+                        background: -moz-linear-gradient( to left, #5e72e4, #825ee4  );
+                        background: -webkit-linear-gradient( to left, #5e72e4, #825ee4 );
+                        background: linear-gradient( to left, #5e72e4, #825ee4 );
+                        opacity: 0.9;
+
+                        
+                  "></span>
+
+                    <div class="position-absolute start-0 top-0 w-100 parallax-image" style="background-image: url(http://calculatorboy.com/assets/img/parallax.jpg);filter: blur(1px);"></div>
+
+                    <div class="container position-relative zindex-1">
+                        <div class="col text-center p-lg-5 mx-auto my-5">
+
+                            <h1 class="text-white">Dividend payout ratio calculator</h1>
+                            <h4 class="lead text-white letter-normal my-3"></h4>
+
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <section>
+                <div class="container py-4">
+                    <div class="row">
+                        <div class="col-lg-9">
+
+
+                            <section id="content-box" class="mb-3 page-363">
+
+                                <div class="card mb-3">
+                                    <div class="card-body">
+
+                                        <div wire:id="bOxLx3hjIbpPbJwB8fXh">
+
+                                            <form>
+
+                                                <!-- Session Status -->
+
+                                                <!-- Validation Errors -->
+
+                                                <div class="row">
+                                                    <label for="">Total dividends :</label>
+                                                    <!-- <label class="form-label">Enter a website URL</label> -->
+                                                    <div class="col">
+                                                        <div class="input-group input-group-flat">
+                                                            <br>
+                                                            <input type="number" class="form-control" placeholder=" 20000" required="" id="m34">
+                                                            <span class="input-group-text bg-white">
+                        <a id="paste" class="link-secondary cursor-pointer" title="" data-bs-toggle="tooltip" data-bs-original-title="Paste">
+                            <i class="far fa-clipboard fa-fw "></i>
+                        </a>
+                    </span>
+                                                        </div> <br>
+
+                                                        <label for="">Net income :</label>
+                                                        <!-- <label class="form-label">Enter a website URL</label> -->
+                                                        <div class="col">
+                                                            <div class="input-group input-group-flat">
+                                                                <br>
+                                                                <input type="number" class="form-control" placeholder=" 20000" required="" id="i34">
+                                                                <span class="input-group-text bg-white">
+                        <a id="paste" class="link-secondary cursor-pointer" title="" data-bs-toggle="tooltip" data-bs-original-title="Paste">
+                            <i class="far fa-clipboard fa-fw "></i>
+                        </a>
+                    </span>
+                                                            </div>
+                                                        </div> <br><br>
+                                                        <div class="col-auto">
+                                                            <div class="form-group">
+                                                                <button class="btn bg-gradient-info mx-auto d-block" onclick="calc34()">
+                                                                <span>
+                                                                    <div wire:loading.inline="" >
+                                                                        <i class="fas fa-spinner fa-spin fa-fw"></i>                         
+                                                                     </div>
+                                                                    <span >Calculate</span>
+                                                                </span>
+                                                            </button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+
+                                            </form>
+                                            </div>
+                                            <span style="font-size: 1.11em; font-weight:800">Dividend payout ratio :</span>
+                                            <span style="font-size: 1.11em; font-weight:800" id="payment34"></span>
+                                        </div>
+                                    </div>
+
+                                    <section>
+                                        <div class="card mb-3">
+                                            <div class="d-block card-header related-tools-box text-start bg-gradient-primary text-white">
+                                                <h6 class="text-white mb-0">Related Tools</h6>
+                                            </div>
+                                            <div class="card-body">
+                                                <div class="row">
+                                                    <div class="col-12 col-md-6 col-lg-4 mb-3">
+                                                        <a class="card text-decoration-none cursor-pointer item-box" href="http://calculatorboy.com/domain-age-checker">
+                                                            <div class="card-body">
+                                                                <div class="d-flex align-items-center">
+                                                                    <img class="avatar rounded-0" src="http://calculatorboy.com/assets/img/tools/domain-age-checker.svg">
+                                                                    <div class="name ps-3">
+                                                                        <div class="font-weight-medium">Domain Age Checker</div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                    <div class="col-12 col-md-6 col-lg-4 mb-3">
+                                                        <a class="card text-decoration-none cursor-pointer item-box" href="http://calculatorboy.com/da-pa-checker">
+                                                            <div class="card-body">
+                                                                <div class="d-flex align-items-center">
+                                                                    <img class="avatar rounded-0" src="http://calculatorboy.com/assets/img/tools/da-pa-checker.svg">
+                                                                    <div class="name ps-3">
+                                                                        <div class="font-weight-medium">DA PA Checker</div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                    <div class="col-12 col-md-6 col-lg-4 mb-3">
+                                                        <a class="card text-decoration-none cursor-pointer item-box" href="http://calculatorboy.com/google-cache-checker">
+                                                            <div class="card-body">
+                                                                <div class="d-flex align-items-center">
+                                                                    <img class="avatar rounded-0" src="http://calculatorboy.com/assets/img/tools/google-cache-checker.svg">
+                                                                    <div class="name ps-3">
+                                                                        <div class="font-weight-medium">Google Cache Checker</div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                    <div class="col-12 col-md-6 col-lg-4 mb-3">
+                                                        <a class="card text-decoration-none cursor-pointer item-box" href="http://calculatorboy.com/page-authority-checker">
+                                                            <div class="card-body">
+                                                                <div class="d-flex align-items-center">
+                                                                    <img class="avatar rounded-0" src="http://calculatorboy.com/assets/img/tools/page-authority-checker.svg">
+                                                                    <div class="name ps-3">
+                                                                        <div class="font-weight-medium">Page Authority Checker</div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                    <div class="col-12 col-md-6 col-lg-4 mb-3">
+                                                        <a class="card text-decoration-none cursor-pointer item-box" href="http://calculatorboy.com/domain-authority-checker">
+                                                            <div class="card-body">
+                                                                <div class="d-flex align-items-center">
+                                                                    <img class="avatar rounded-0" src="http://calculatorboy.com/assets/img/tools/domain-authority-checker.svg">
+                                                                    <div class="name ps-3">
+                                                                        <div class="font-weight-medium">Domain Authority Checker</div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                    <div class="col-12 col-md-6 col-lg-4 mb-3">
+                                                        <a class="card text-decoration-none cursor-pointer item-box" href="http://calculatorboy.com/whois-domain-lookup">
+                                                            <div class="card-body">
+                                                                <div class="d-flex align-items-center">
+                                                                    <img class="avatar rounded-0" src="http://calculatorboy.com/assets/img/tools/whois-domain-lookup.svg">
+                                                                    <div class="name ps-3">
+                                                                        <div class="font-weight-medium">Whois Domain Lookup</div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                    <div class="col-12 col-md-6 col-lg-4 mb-3">
+                                                        <a class="card text-decoration-none cursor-pointer item-box" href="http://calculatorboy.com/alexa-rank-checker">
+                                                            <div class="card-body">
+                                                                <div class="d-flex align-items-center">
+                                                                    <img class="avatar rounded-0" src="http://calculatorboy.com/assets/img/tools/alexa-rank-checker.svg">
+                                                                    <div class="name ps-3">
+                                                                        <div class="font-weight-medium">Alexa Rank Checker</div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </section>
+
+                                    <div class="card">
+
+                                        <div class="card-body ">
+                                            <div class="d-flex justify-content-center mb-3">
+                                            </div>
+
+
+                                            <div class="social-share text-center">
+                                                <div class="is-divider"></div>
+                                                <div class="share-icons relative">
+
+                                                    <a wire:ignore="" href="https://www.facebook.com/sharer.php?u=http://calculatorboy.com/google-index-checker" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=http://calculatorboy.com/google-index-checker','facebook','height=500,width=800,resizable=1,scrollbars=yes'); return false;"
+                                                        data-label="Facebook" rel="noopener noreferrer nofollow" target="_blank" class="btn btn-facebook btn-icon-only">
+                                                        <span class="btn-inner--icon"><i class="fab fa-facebook"></i></span>
+                                                    </a>
+
+                                                    <a wire:ignore="" href="https://twitter.com/share?url=http://calculatorboy.com/google-index-checker" onclick="window.open('https://twitter.com/share?url=http://calculatorboy.com/google-index-checker','twitter','height=500,width=800,resizable=1,scrollbars=yes'); return false;"
+                                                        rel="noopener noreferrer nofollow" target="_blank" class="btn btn-twitter btn-icon-only">
+                                                        <span class="btn-inner--icon"><i class="fab fa-twitter"></i></span>
+                                                    </a>
+
+                                                    <a wire:ignore="" href="https://www.pinterest.com/pin-builder/?url=http://calculatorboy.com/google-index-checker&amp;media=http://calculatorboy.com/assets/img/nastuh.jpg&amp;description=Google%20Index%20Checker" onclick="window.open('https://www.pinterest.com/pin-builder/?url=http://calculatorboy.com/google-index-checker&amp;media=http://calculatorboy.com/assets/img/nastuh.jpg&amp;description=Google%20Index%20Checker','pinterest','height=500,width=800,resizable=1,scrollbars=yes'); return false;"
+                                                        rel="noopener noreferrer nofollow" target="_blank" class="btn btn-pinterest btn-icon-only">
+                                                        <span class="btn-inner--icon"><i class="fab fa-pinterest"></i></span>
+                                                    </a>
+
+                                                    <a wire:ignore="" href="https://www.linkedin.com/sharing/share-offsite/?url=http://calculatorboy.com/google-index-checker" onclick="window.open('https://www.linkedin.com/sharing/share-offsite/?url=http://calculatorboy.com/google-index-checker','linkedin','height=500,width=800,resizable=1,scrollbars=yes'); return false;"
+                                                        rel="noopener noreferrer nofollow" target="_blank" class="btn btn-linkedin btn-icon-only">
+                                                        <span class="btn-inner--icon"><i class="fab fa-linkedin"></i></span>
+                                                    </a>
+
+                                                    <a wire:ignore="" href="https://www.reddit.com/submit?url=http://calculatorboy.com/google-index-checker&amp;title=Google%20Index%20Checker" onclick="window.open('https://www.reddit.com/submit?url=http://calculatorboy.com/google-index-checker&amp;title=Google%20Index%20Checker','reddit','height=500,width=800,resizable=1,scrollbars=yes'); return false;"
+                                                        rel="noopener noreferrer nofollow" target="_blank" class="btn btn-reddit btn-icon-only">
+                                                        <span class="btn-inner--icon"><i class="fab fa-reddit"></i></span>
+                                                    </a>
+
+                                                    <a wire:ignore="" href="https://tumblr.com/widgets/share/tool?canonicalUrl=http://calculatorboy.com/google-index-checker" onclick="window.open('https://tumblr.com/widgets/share/tool?canonicalUrl=http://calculatorboy.com/google-index-checker','tumblr','height=500,width=800,resizable=1,scrollbars=yes'); return false;"
+                                                        target="_blank" class="btn btn-tumblr btn-icon-only" rel="noopener noreferrer nofollow">
+                                                        <span class="btn-inner--icon"><i class="fab fa-tumblr"></i></span>
+                                                    </a>
+
+                                                </div>
+                                            </div>
+
+
+                                        </div>
+                                    </div>
+                            </section>
+                            </div>
+
+                            <div class="col-lg-3 ml-auto">
+                                <div class="card mb-3">
+                                    <div class="card-header d-block text-start bg-gradient-primary text-white">
+                                        <h6 class="text-white mb-0">Popular Tools</h6>
+                                    </div>
+                                    <div class="list-group list-group-flush list-group-hoverable">
+
+                                        <div class="list-group-item">
+                                            <div class="row align-items-center">
+                                                <div class="col d-flex">
+                                                    <span>
+                                <i class="fas fa-check text-success me-2"></i>
+                            </span>
+                                                    <a href="http://calculatorboy.com/adsense-calculator" class="text-body d-block">Adsense Calculator</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="list-group-item">
+                                            <div class="row align-items-center">
+                                                <div class="col d-flex">
+                                                    <span>
+                                <i class="fas fa-check text-success me-2"></i>
+                            </span>
+                                                    <a href="http://calculatorboy.com/wordpress-theme-detector" class="text-body d-block">WordPress Theme Detector</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="list-group-item">
+                                            <div class="row align-items-center">
+                                                <div class="col d-flex">
+                                                    <span>
+                                <i class="fas fa-check text-success me-2"></i>
+                            </span>
+                                                    <a href="http://calculatorboy.com/screen-resolution-simulator" class="text-body d-block">Screen Resolution Simulator</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="list-group-item">
+                                            <div class="row align-items-center">
+                                                <div class="col d-flex">
+                                                    <span>
+                                <i class="fas fa-check text-success me-2"></i>
+                            </span>
+                                                    <a href="http://calculatorboy.com/whois-domain-lookup" class="text-body d-block">Whois Domain Lookup</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="list-group-item">
+                                            <div class="row align-items-center">
+                                                <div class="col d-flex">
+                                                    <span>
+                                <i class="fas fa-check text-success me-2"></i>
+                            </span>
+                                                    <a href="http://calculatorboy.com/domain-authority-checker" class="text-body d-block">Domain Authority Checker</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="list-group-item">
+                                            <div class="row align-items-center">
+                                                <div class="col d-flex">
+                                                    <span>
+                                <i class="fas fa-check text-success me-2"></i>
+                            </span>
+                                                    <a href="http://calculatorboy.com/domain-age-checker" class="text-body d-block">Domain Age Checker</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="list-group-item">
+                                            <div class="row align-items-center">
+                                                <div class="col d-flex">
+                                                    <span>
+                                <i class="fas fa-check text-success me-2"></i>
+                            </span>
+                                                    <a href="http://calculatorboy.com/robots-txt-generator" class="text-body d-block">Robots.txt Generator</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="list-group-item">
+                                            <div class="row align-items-center">
+                                                <div class="col d-flex">
+                                                    <span>
+                                <i class="fas fa-check text-success me-2"></i>
+                            </span>
+                                                    <a href="http://calculatorboy.com/google-index-checker" class="text-body d-block">Google Index Checker</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="list-group-item">
+                                            <div class="row align-items-center">
+                                                <div class="col d-flex">
+                                                    <span>
+                                <i class="fas fa-check text-success me-2"></i>
+                            </span>
+                                                    <a href="http://calculatorboy.com/alexa-rank-checker" class="text-body d-block">Alexa Rank Checker</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="list-group-item">
+                                            <div class="row align-items-center">
+                                                <div class="col d-flex">
+                                                    <span>
+                                <i class="fas fa-check text-success me-2"></i>
+                            </span>
+                                                    <a href="http://calculatorboy.com/keyword-density-checker" class="text-body d-block">Keyword Density Checker</a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+
+                                <div class="card mb-3">
+                                    <div class="card-header d-block text-start bg-gradient-primary text-white">
+                                        <h6 class="text-white mb-0">Recent Posts</h6>
+                                    </div>
+                                    <div class="list-group list-group-flush list-group-hoverable">
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+            </section>
+        </main>
+
+        <footer class="footer pt-3 mt-3 pb-0">
+
+
+            <hr class="horizontal dark mb-5">
+
+            <div class="container">
+                <div class="row">
+
+
+                    <div class="col-12 mb-3">
+                        <div>
+                            <p class="text-gradient text-primary font-weight-bolder">About Us</p>
+                            <p>Calculator Boy's main focus is to provide fast, comprehensive, convenient, free online calculators in different areas. Our goal is to become the best website for people who need to make quick calculations. Additionally, we
+                                believe the internet should be a source of free information. Therefore, all our tools and services are free, with no registration required.</p>
+                            <p>Copyrights © 2022. All Rights Reserved by Calculator Boy</p>
+                            <p>&nbsp;</p>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+        </footer>
+        <!-- Theme JS -->
+        <script src="http://calculatorboy.com/assets/js/main.min.js"></script>
+
+
+        <!-- Scroll back to top -->
+        <div id="backtotop" style="display: none;">
+            <a href="javascript:void(0)" class="backtotop"></a>
+        </div>
+
+        <script type="text/javascript">
+            jQuery(document).ready(function($) {
+                $("#backtotop").hide();
+                $(window).scroll(function() {
+                    if ($(this).scrollTop() > 500) {
+                        $('#backtotop').fadeIn();
+                    } else {
+                        $('#backtotop').fadeOut();
+                    }
+                });
+            });
+
+            jQuery('.backtotop').click(function() {
+                jQuery('html, body').animate({
+                    scrollTop: 0
+                }, 'slow');
+            });
+        </script>
+        <!-- End of Scroll back to top -->
+
+
+        <!-- Sweetalert2 -->
+        <script src="http://calculatorboy.com/assets/js/sweetalert2.min.js"></script>
+        <script src="js/scripts.js"></script>
+
+        <script src="http://calculatorboy.com/assets/js/prebid-ads.js"></script>
+
+        <script>
+            (function($) {
+                "use strict";
+
+                if (window.canRunAds === undefined) {
+                    Swal.fire({
+                        title: "You&#039;re blocking ads",
+                        text: "Our website is made possible by displaying online ads to our visitors. Please consider supporting us by disabling your ad blocker.",
+                        icon: 'warning',
+                        showCancelButton: true,
+                        confirmButtonText: "I have disabled Adblock",
+                        cancelButtonText: "No, thanks!"
+                    }).then((result) => {
+                        if (result.isConfirmed) {
+                            window.location.reload();
+                        }
+                    });
+                }
+
+            })(jQuery);
+        </script>
+
+
+
+
+
+        <script>
+            function copyToClipboard() {
+                document.getElementById("text").select();
+                document.execCommand('copy');
+            }
+        </script>
+
+
+        </div>
+        <!-- Livewire Component wire-end:GeNSXWM0qtOmLSjXdCkB -->
+        <script src="http://calculatorboy.com/vendor/livewire/livewire.js?id=940557fc56b15ccb9a2d" data-turbo-eval="false" data-turbolinks-eval="false"></script>
+        <script data-turbo-eval="false" data-turbolinks-eval="false">
+            window.livewire = new Livewire();
+            window.Livewire = window.livewire;
+            window.livewire_app_url = 'http://calculatorboy.com';
+            window.livewire_token = '1b3TkS7w9RZniq8XWqNOaq9eofU1S0m8MGw6VRsc';
+            window.deferLoadingAlpine = function(callback) {
+                window.addEventListener('livewire:load', function() {
+                    callback();
+                });
+            };
+            let started = false;
+            window.addEventListener('alpine:initializing', function() {
+                if (!started) {
+                    window.livewire.start();
+                    started = true;
+                }
+            });
+            document.addEventListener("DOMContentLoaded", function() {
+                if (!started) {
+                    window.livewire.start();
+                    started = true;
+                }
+            });
+        </script>
+
+
+</body>
